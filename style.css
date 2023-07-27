@@ -86,14 +86,15 @@ p {
 
 audio-player {
   display: inline-block;
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 audio {
-  width: 300px;
+  width: 600px;
   position: relative;
   left: 400px;
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
@@ -101,7 +102,7 @@ audio {
 
 /* Customize the audio controls (optional) */
 audio::-webkit-media-controls-panel {
-  background-color: #333;
+  background-color: #ececec;
 }
 
 audio::-webkit-media-controls-play-button {
@@ -112,7 +113,7 @@ audio::-webkit-media-controls-play-button {
 
 audio::-webkit-media-controls-volume-slider {
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #ffffff;
 }
 
 .video-player {
